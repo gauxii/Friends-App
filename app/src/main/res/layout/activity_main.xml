@@ -9,61 +9,44 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Name"
-        android:textColor="#EDF2F2"
         />
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter your name"
-        android:id="@+id/name"
-        android:backgroundTint="#E3ECED"
-        android:background="#B4CCCE"
-        android:textColor="#515757"
-        />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the name"
+            android:id="@+id/name"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="FriendName"
-        android:textColor="#EDF2F2"
         />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter friend name"
         android:id="@+id/friendname"
-        android:backgroundTint="#E3ECED"
-        android:background="#B4CCCE"
-        android:textColor="#515757"
         />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="FriendNickname"
-        android:textColor="#EDF2F2"
         />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter friend nickname"
         android:id="@+id/friendnick"
-        android:backgroundTint="#E3ECED"
-        android:background="#B4CCCE"
-        android:textColor="#515757"
         />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Description"
-        android:textColor="#EDF2F2"
         />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Describe your friend"
         android:id="@+id/describe"
-        android:backgroundTint="#E3ECED"
-        android:background="#B4CCCE"
-        android:textColor="#515757"
         />
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
@@ -71,4 +54,10 @@
         android:text="submit"
         android:layout_margin="50px"
         android:id="@+id/sub"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VIEW ALL FRIENDS"
+        android:layout_margin="50px"
+        android:id="@+id/viewfr"/>
 </LinearLayout>
